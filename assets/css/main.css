@@ -1795,7 +1795,7 @@ input, select, textarea {
 			width: calc(100% + 0.5em);
 		}
 
-			header.major4 > h3:after {
+			header.major4 > h4:after {
 				content: '';
 				background-color: #ffffff;
 				display: block;
