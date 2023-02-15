@@ -1,11 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
-/*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -187,11 +183,18 @@ input, select, textarea {
 		line-height: 1.65;
 		margin: 0 0 0 0;
 	}
-	h2, h4, h5, h6 {
+	h2, h5, h6 {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.65;
 		margin: 0 0 2em 0;
+	}
+	h4{
+		color: #ffee00;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-weight: 700;
+		line-height: 1.65;
+		margin: 0 0 0 0;	
 	}
 
 	h3{
@@ -1792,7 +1795,6 @@ input, select, textarea {
 
 		header.major4 > :first-child {
 			margin-bottom: 0;
-			width: calc(100% + 0.5em);
 		}
 
 			header.major4 > h3:after {
@@ -2891,7 +2893,7 @@ input, select, textarea {
 			}
 
 			.tiles article:after {
-				background-color: rgba(36, 41, 67, 0.25);
+				background-color: rgba(36, 41, 67, 0.442);
 				content: '';
 				display: block;
 				height: 100%;
@@ -2939,11 +2941,11 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+				background-color: #1b2021;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+				background-color: #1b2021;
 			}
 
 		@media screen and (max-width: 1280px) {
